@@ -1,0 +1,65 @@
+h1 {
+    margin: 50px 120px 10px 300px;
+    padding: 10px 10px 10px 50px;
+    font-size: 40px;
+
+    border-color: rgba(22, 116, 123, 0.828);
+    border-width: 10px;
+    border-style: dotted;
+}
+
+body {
+    background-color: #7297edd7; 
+    color: #5a0000;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#About {
+    margin: 10px 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+#Experience {
+    margin: 10px 25px;
+    padding: 5px;
+    ul li{
+        font-size: 20px;
+        list-style-image: linear-gradient(to left bottom, rgb(90, 6, 6), rgb(255, 119, 0));
+        box-sizing: border-box;
+        border: 2px solid #9351a4;
+        margin: 20px;
+
+    }
+}
+
+#Connect {
+    margin: 10px 25px;
+    padding: 5px;
+    ul li{
+        list-style-type: circle; 
+    }
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #8a0078;
+}
+
+a:link, a:visited {
+    background-color: #109c6b;
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
