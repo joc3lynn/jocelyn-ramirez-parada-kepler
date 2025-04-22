@@ -1,6 +1,19 @@
+#bar {
+    border: 5px solid #fccca0;
+    color:rgb(16, 26, 119);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
 h1 {
-    margin: 50px 120px 10px 300px;
-    padding: 10px 10px 10px 50px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
     font-size: 40px;
 
     border-color: rgba(22, 116, 123, 0.828);
@@ -12,9 +25,11 @@ body {
     background-color: #7297edd7; 
     color: #5a0000;
     font-family: "Libre Franklin", sans-serif;
+    font-size: 18px;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+    margin: 0;
 
 }
 
@@ -27,23 +42,39 @@ body {
 #Experience {
     margin: 10px 25px;
     padding: 5px;
-    ul li{
-        font-size: 20px;
-        list-style-image: linear-gradient(to left bottom, rgb(90, 6, 6), rgb(255, 119, 0));
-        box-sizing: border-box;
-        border: 2px solid #9351a4;
-        margin: 20px;
-
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
     }
+}
+
+#apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #Connect {
     margin: 10px 25px;
     padding: 5px;
-    ul li{
-        list-style-type: circle; 
+    a:link, a:visited {
+        background-color: #109c6b;
+        color: rgb(255, 255, 255);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+      
+      a:hover, a:active {
+        background-color: red;
     }
 }
+
+
 
 h2 {
     font-size: 30px;
@@ -51,15 +82,4 @@ h2 {
     color: #8a0078;
 }
 
-a:link, a:visited {
-    background-color: #109c6b;
-    color: rgb(255, 255, 255);
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: red;
-  }
+
