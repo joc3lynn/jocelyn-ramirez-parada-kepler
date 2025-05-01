@@ -10,8 +10,7 @@
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 40px;
     padding: 20px;
     font-size: 40px;
@@ -41,13 +40,19 @@ body {
 
 #Experience {
     margin: 10px 25px;
-    padding: 5px;
+    padding: 20px;
+    border-color: rgba(156, 86, 255, 0.828);
+    border-width: 10px;
+    border-style: dashed;
     ul {
         list-style: none;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-between;
+        border: 2px solid rgba(156, 86, 255, 0.828);
+        border-radius: 12px;
+        padding: 20px;
     }
 }
 
