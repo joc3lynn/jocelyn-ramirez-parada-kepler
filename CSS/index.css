@@ -17,14 +17,14 @@ h1 {
 
     border-color: rgba(22, 116, 123, 0.828);
     border-width: 10px;
-    border-style: dotted;
+    border-style: solid;
 }
 
 body {
     background-color: #7297edd7; 
     color: #5a0000;
     font-family: "Libre Franklin", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
@@ -88,3 +88,91 @@ h2 {
 }
 
 
+/* Tablets */
+@media (min-width: 500px) {
+
+    h1{
+        text-align: center;
+        margin: 20px;
+        padding: 25px;
+        font-size: 35px;
+    
+        border-color: rgb(81, 180, 51);
+        border-width: 5px;
+        border-radius: 25px;
+    }
+
+
+
+    body{
+        background-color: #d38cffd7;
+        color: #4c2802;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        margin: 0;
+
+    }
+
+    #About{
+        margin: 30px 100px;
+        padding: 2px;
+        text-align: center;
+        font-size: 22px;
+        color: #012819;
+        font-family: "Lucida Console", "Courier New", monospace;
+
+    }
+
+}
+
+/* Larger Screens (laptops & desktops) */
+
+@media (min-width: 1000px) {
+
+    #bar {
+        border: 5px solid #860202;
+        border-radius: 15px;
+        color:rgb(22, 87, 0);
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px 0;
+        padding: 15px;
+        font-size: 24px;
+    
+    }
+
+    body{
+        background-color: #ffacdced;
+        color: #2f0076;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        margin: 0;
+
+    }
+
+    #Experience {
+        margin: 20px 25px;
+        padding: 40px;
+        border-color: rgba(208, 20, 20, 0.887);
+        border-width: 5px;
+        border-style: double;
+        border-radius: 15px;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 2px solid rgba(18, 10, 29, 0.828);
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+
+}
