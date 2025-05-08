@@ -56,6 +56,14 @@ body {
     }
 }
 
+#Skills {
+    ul{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        gap: 60px;
+    }
+}
+
 #apps {
     display: flex;
     flex-direction: row;
@@ -126,6 +134,17 @@ h2 {
 
     }
 
+    #Skills {
+        ul{
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            gap: 60px;
+            font-size: 25px;
+            color: #1f42b7;
+            list-style: upper-roman;
+        }
+    }
+
 }
 
 /* Larger Screens (laptops & desktops) */
@@ -172,6 +191,17 @@ h2 {
             border: 2px solid rgba(18, 10, 29, 0.828);
             padding: 10px;
             font-size: 18px;
+        }
+    }
+
+    #Skills {
+        ul{
+            display: grid;
+            grid-template-columns: 220px 220px 220px 220px;
+            gap: 80px;
+            font-size: 25px;
+            color: #41290a;
+            list-style: square;
         }
     }
 
