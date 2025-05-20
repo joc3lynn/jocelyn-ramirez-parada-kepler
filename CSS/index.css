@@ -88,6 +88,22 @@ body {
 }
 
 
+#Submit {
+    margin: 10px 25px;
+    padding: 20px;
+    border-color: rgba(3, 76, 37, 0.828);
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    color:#41290a;
+}
+
+#Messages {
+    margin: 10px 25px;
+    padding: 20px;
+}
+
+
 
 h2 {
     font-size: 30px;
@@ -140,12 +156,62 @@ h2 {
             grid-template-columns: 200px 200px 200px 200px;
             gap: 60px;
             font-size: 25px;
-            color: #1f42b7;
+            color: #001a6e;
             list-style: upper-roman;
         }
     }
 
+    #Submit {
+        margin: 10px 25px;
+        padding: 20px;
+        border-color: rgb(16, 118, 63);
+        border-width: 10px;
+        border-style: solid;
+        text-align: center;
+        color:#41290a;
+
+        input {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            font-size: 25px;
+          }
+
+
+        
+        .boton {
+            background-color: #064a10;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+    
+        }
+    }
+    
+    #Messages {
+        margin: 10px 25px;
+        padding: 20px;
+        color:#004554;
+        font-size: 20px;
+        ul {
+            border: 2px solid rgba(29, 8, 59, 0.828);
+            border-radius: 12px;
+            padding: 40px;
+        }
+
+        li {
+            margin: 25px;
+        }
+    }
+
 }
+
+
 
 /* Larger Screens (laptops & desktops) */
 
@@ -205,4 +271,52 @@ h2 {
         }
     }
 
+   
+    #Submit {
+        margin: 10px 25px;
+        padding: 20px;
+        border-color: rgb(14, 79, 201);
+        border-width: 10px;
+        border-style: solid;
+        text-align: center;
+        color:#006421;
+
+        input {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            font-size: 20px;
+          }
+
+
+        
+        .boton {
+            background-color: #06184a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+    
+        }
+    }
+    
+    #Messages {
+        margin: 10px 25px;
+        padding: 20px;
+        color:#8c2323;
+        font-size: 20px;
+        ul {
+            border: 2px solid rgb(30, 174, 99);
+            border-radius: 12px;
+            padding: 40px;
+        }
+
+        li {
+            margin: 30px;
+        }
+    }
 }
