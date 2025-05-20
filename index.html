@@ -18,6 +18,7 @@
                 <a class="nav-link" href="#Connect">Connect</a>
                 <a class="nav-link" href="#Skills">Skills</a>
                 <a class="nav-link" href="#Projects">Projects</a>
+                <a class="nav-link" href="#Submit">Leave a Message</a>
             </nav>
         </header>
         <h1><img id="face" src='./images/happyface.gif'style="width:80px;height:80px;"/>
@@ -81,6 +82,22 @@
         </section>
         <section id="Projects">
             <h2>Projects</h2>
+        </section>
+        <section id="Submit">
+            <h2>Leave a Message</h2>
+            <form name="leave_message">
+                <label for="users">Users Name: </label>
+                <input type="text" name="usersName" id="users" required="true"><br>
+                <label for="emailAdd">Users Email: </label>
+                <input type="email" name="usersEmail" id="emailAdd" required="true"><br>
+                <label for="messageAdd">Users Message: </label>
+                <textarea name="usersMessage" id="messageAdd" required="true"> </textarea><br>
+                <button class="boton" type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="Messages">
+            <h2>Messages</h2>
+            <ul></ul>
         </section>
         <script src="js/index.js"></script>
     </body>
