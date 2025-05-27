@@ -87,6 +87,12 @@ body {
     }
 }
 
+#Projects {
+    ul{
+        list-style-type: square;
+        color:#41290a;
+    }
+}
 
 #Submit {
     margin: 10px 25px;
@@ -151,6 +157,7 @@ h2 {
     }
 
     #Skills {
+        padding: 10px;
         ul{
             display: grid;
             grid-template-columns: 200px 200px 200px 200px;
@@ -158,6 +165,20 @@ h2 {
             font-size: 25px;
             color: #001a6e;
             list-style: upper-roman;
+        }
+    }
+
+    #Projects {
+        padding: 30px;
+        ul{ 
+            background: #89c8e6;
+            padding: 50px;
+            margin: 10px;
+            color:#01325a;
+            font-size: 20px;
+        }
+        ul li{
+            margin-bottom: 20px;
         }
     }
 
@@ -268,6 +289,20 @@ h2 {
             font-size: 25px;
             color: #41290a;
             list-style: square;
+        }
+    }
+
+    #Projects {
+        padding: 40px;
+        ul{ 
+            background: #ade0f7;
+            padding: 60px;
+            margin: 20px;
+            color:#01223c;
+            font-size: 25px;
+        }
+        ul li{
+            margin-bottom: 25px;
         }
     }
 
