@@ -36,6 +36,7 @@ body {
     margin: 10px 25px;
     padding: 5px;
     text-align: center;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 #Experience {
@@ -135,7 +136,7 @@ h2 {
 
 
     body{
-        background-color: #d38cffd7;
+        background-color: #dda6ffd7;
         color: #4c2802;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
@@ -151,8 +152,10 @@ h2 {
         padding: 2px;
         text-align: center;
         font-size: 22px;
-        color: #012819;
-        font-family: "Lucida Console", "Courier New", monospace;
+        color: #003822;
+        font-family: "Lucida Console", sans-serif;
+        font-weight: 500px;
+        line-height: 1.6;
 
     }
 
@@ -196,9 +199,7 @@ h2 {
             padding: 12px 20px;
             margin: 8px 0;
             font-size: 25px;
-          }
-
-
+        }
         
         .boton {
             background-color: #064a10;
@@ -251,7 +252,7 @@ h2 {
     }
 
     body{
-        background-color: #ffacdced;
+        background-color: #ffb7e1ed;
         color: #2f0076;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 22px;

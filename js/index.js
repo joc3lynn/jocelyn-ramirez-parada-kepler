@@ -30,9 +30,7 @@ for (let i = 0; i < skills.length; i++)
     console.log(skillsList);
 }
 
-
 //Message Form
-
 const messageForm = document.getElementsByName("leave_message");
 messageForm[0].addEventListener("submit", formSubmit);
 
@@ -77,8 +75,7 @@ function formSubmit(event) {
 
 }
 
-//fetch
-
+//Fetch Repositories
 fetch('https://api.github.com/users/joc3lynn/repos')
     .then((response) => {
             if (!response.ok) {
